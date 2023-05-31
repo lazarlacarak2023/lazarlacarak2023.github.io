@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #4FAAAD;
+}
+
+.header{
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.header img{
+    width: 105px;
+    height: 70px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.header ul{
+    margin-left: 700px;
+}
+
+.header ul li{
+    padding-top: 25px;
+    list-style-type: none;
+    display: inline-block;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: medium;
+}
+
+.header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header ul li a:hover{
+    background-color: #0F051F;
+    padding: 3px;
+}
+
+h2{
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.informacije h1{
+    padding-top: 70px;
+    text-align: center;
+    color: black;
+    padding-bottom: 60px;
+}
+
+.informacije p{
+    position: absolute;
+    color: #fff;
+    margin-left: 100px;
+    width: 480px;
+    font-size: 18px;
+}
+
+.informacije img{
+    margin-left: 750px;
+    height: 300px;
+    width: 460px;
+    border: 3px solid green;
+}
+
+.informacije button{
+    background-color:  #1B2D48;
+    color: #fff;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: 385px;
+}
+
+.informacije button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.informacije button:hover{
+    background-color: #0F051F;
+    transition: 0.7s;
+}
+
+.stadion h1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: black;
+    text-align: center;
+}
+
+.stadion img{
+    height: 300px;
+    width: 460px;
+    margin-left: 100px;
+    position: absolute;
+    border: 3px solid green;
+}
+
+.stadion p{
+    color: #fff;
+    margin-left: 750px;
+    font-size: 18px;
+    width: 420px;
+}
+
+.stadion button{
+    background-color:  #1B2D48;
+    color: #fff;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: 1020px;
+}
+
+.stadion button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.stadion button:hover{
+    background-color: #0F051F;
+    transition: 0.7s;
+}
+
+.trenutna-postava h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.trenutna-postava ul{
+    margin-left: 20px;
+    position: absolute;
+}
+
+.trenutna-postava ul li{
+    list-style-type: none;
+    color: #fff;
+}
+
+.trenutna-postava img{
+    width: 750px;
+    height: 450px;
+    border: 3px solid green;
+    margin-left: 300px;
+}
+
+.trenutna-postava{
+    padding-bottom: 60px;
+}
+
+.footer footer p{
+    margin-top: 5px;
+}
+
+.footer footer {
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    background-color: #0F051F;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+
+.footer-titule footer p{
+    margin-top: 5px;
+}
+
+.footer-titule footer {
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    background-color:antiquewhite;
+    color: black;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+
+.body-titule{
+    background-color: #0F051F;
+}
+
+.titule h1{
+    text-align: center;
+    color: bisque;
+    padding-top: 60px;
+}
+
+.titule table{
+    margin-top: 50px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.titule table th{
+    padding: 3px;
+}
+
+.titule table td{
+    padding: 4px;
+}
+
+.bernabeu h1{
+    text-align: center;
+    color:darkkhaki ;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.bernabeu p{
+    padding: 4px;
+    margin-left: 10px;
+    border: 3px solid #0F051F;
+    border-radius: 20px;
+    margin-right: 9px;
+}
+
+.bernabeu img {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.bernabeu{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+  
+.bernabeu img:hover {
+    border: 3px solid black;
+    box-shadow:  5px 5px 5px #000;
+}
+
+.istorija h1{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.istorija ul li{
+    margin-left: 9px;
+    margin-right: 9px;
+    color: #fff;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.istorija{
+    background-image: url(image\ \(4\).jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.h1-legende{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+.tabela-legendi table{
+    margin:auto;
+    padding: 20px;
+}
+
+.tabela-legendi table td{
+    padding: 4px;
+}
+
+.tabela-legendi table th{
+    padding: 4px;
+}
+
+.tabela-legendi{
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+
+.slike img{
+    margin-left: 55px;
+    height: 350px;
+    border: 3px solid green;
+}
+
+.slike{
+    padding-bottom: 70px;
+}
+
+.slike .kas{
+    margin-left: 25px;
+}
